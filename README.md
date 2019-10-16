@@ -5,3 +5,4 @@
 import shortId from 'shortid'
 let requestSessionId = shortId()
 ```
+- https://www.npmjs.com/package/cookie-cutter
