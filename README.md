@@ -18,4 +18,4 @@ Change title in index.html
 - Install Apollo Client for grapql https://www.apollographql.com/docs/react/get-started/
 ```
 npm install apollo-boost @apollo/react-hooks graphql
-``
+```
