@@ -5,6 +5,24 @@
 import shortId from 'shortid'
 let requestSessionId = shortId()
 ```
+- https://www.npmjs.com/package/prop-types
+```
+import React from 'react';
+import PropTypes from 'prop-types';
+class MyComponent extends React.Component {
+  render() {
+    // ... do things with the props
+  }
+}
+ 
+MyComponent.propTypes = {
+  // You can declare that a prop is a specific JS primitive. By default, these
+  // are all optional.
+  optionalArray: PropTypes.array,
+  optionalBool: PropTypes.bool,
+  optionalFunc: PropTypes.func
+}
+```
 - https://www.npmjs.com/package/moment
 - https://www.npmjs.com/package/mobx
 - https://www.npmjs.com/package/react-router-dom
