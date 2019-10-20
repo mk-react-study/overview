@@ -11,4 +11,11 @@ let requestSessionId = shortId()
 - https://www.npmjs.com/package/nodemon
 - https://www.apollographql.com/docs/
 - https://bootswatch.com/  This is for themes
-- 
+```
+Add this in index.html
+Change title in index.html
+```
+- Install Apollo Client for grapql https://www.apollographql.com/docs/react/get-started/
+```
+npm install apollo-boost @apollo/react-hooks graphql
+``
