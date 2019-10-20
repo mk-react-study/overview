@@ -19,3 +19,15 @@ const withClass = props => (
 );
 export default withClass;
 ```
+
+```
+return (
+      <WithClass classes={classes.App}>
+        <button
+          onClick={() => {
+            this.setState({ showCockpit: false });
+          }}
+        >
+      </WithClass>
+    );
+```
