@@ -1,5 +1,6 @@
-# HOC
+# HOC (Higher-Order Components)
 
+- https://reactjs.org/docs/higher-order-components.html
 - Convention to start name hoc component `With` 
 - Pourpose of HOC is to add common functionality to component.
 
