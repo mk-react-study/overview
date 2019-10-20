@@ -5,6 +5,7 @@
 import shortId from 'shortid'
 let requestSessionId = shortId()
 ```
+- https://www.npmjs.com/package/moment
 - https://www.npmjs.com/package/cookie-cutter
 - https://www.npmjs.com/package/jwt-decode
 - https://www.npmjs.com/package/axios
