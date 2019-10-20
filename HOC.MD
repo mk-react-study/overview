@@ -31,3 +31,28 @@ return (
       </WithClass>
     );
 ```
+
+- Passing component in HOC
+```
+import React from 'react';
+const withClass = (WrappedComponent, className) => {
+  return props => (
+    <div className={className}>
+      <WrappedComponent {...props}/>  {/* this allow to pass props to next level. */}
+    </div>
+  );
+};
+export default withClass;
+```
+
+```
+class App extends Component {
+  render() {
+    return (
+      <Aux/>
+    );
+  }
+}
+export default withClass(App, classes.App);
+```
+
