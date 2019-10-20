@@ -55,4 +55,6 @@ class App extends Component {
 }
 export default withClass(App, classes.App);
 ```
+// Here withClass is not component by itself, it returns component, That's why name started with small letter
+
 
