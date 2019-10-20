@@ -3,15 +3,16 @@
 - Convention to start name hoc component `With` 
 - Pourpose of HOC is to add common functionality to component.
 
-### Example HOC
-- Dummy Hoc
+# Example HOC
+
+### Dummy Hoc
 
 ```
 const aux = props => props.children;
 export default aux;
 ```
 
-- Applying common logic to component 
+### Applying common logic to component 
 ```
 import React from 'react';
 const withClass = props => (
@@ -32,7 +33,7 @@ return (
     );
 ```
 
-- Passing component in HOC
+### Passing component in HOC
 ```
 import React from 'react';
 const withClass = (WrappedComponent, className) => {
