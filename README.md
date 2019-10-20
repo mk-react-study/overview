@@ -20,3 +20,9 @@ Change title in index.html
 npm install apollo-boost @apollo/react-hooks graphql
 ```
 - https://www.npmjs.com/package/cors  cross domain access at server side.
+```
+const express = require('express')
+const cors = require('cors')
+const app = express()
+app.use(cors())
+```
