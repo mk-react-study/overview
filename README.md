@@ -31,3 +31,23 @@ const cors = require('cors')
 const app = express()
 app.use(cors())
 ```
+
+- If New State is depended of old state, then use 
+```
+this.setState((prevState, props) => {
+  return {
+    persons: persons,
+    changeCounter: prevState.changeCounter + 1
+  };
+});
+```
+Because setState is not immediately update the state, it is request to react, but prevState provide update correct value.
+```
+this.setState(
+  {
+    persons: persons,
+    changeCounter: this.changeCounter + 1
+  });
+
+```
+
