@@ -6,6 +6,9 @@ import shortId from 'shortid'
 let requestSessionId = shortId()
 ```
 - https://www.npmjs.com/package/prop-types
+
+`npm install --save prop-types`
+
 ```
 import React from 'react';
 import PropTypes from 'prop-types';
