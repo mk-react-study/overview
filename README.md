@@ -7,3 +7,8 @@ let requestSessionId = shortId()
 ```
 - https://www.npmjs.com/package/cookie-cutter
 - https://www.npmjs.com/package/jwt-decode
+- https://www.npmjs.com/package/axios
+- https://www.npmjs.com/package/nodemon
+- https://www.apollographql.com/docs/
+- https://bootswatch.com/  This is for themes
+- 
