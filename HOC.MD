@@ -3,7 +3,7 @@
 - Convention to start name hoc component `With` 
 - Pourpose of HOC is to add common functionality to component.
 
-# Example HOC
+# Example
 
 ### Dummy Hoc
 
